@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Produktif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Ruang Produktif</h1>
+      <p>Atur tugasmu, selesaikan satu per satu.</p>
+    </header>
+
+    <div class="form">
+      <input id="title" type="text" placeholder="Nama tugas...">
+      <input id="description" type="text" placeholder="Deskripsi...">
+      <input id="dueDate" type="date">
+      <button onclick="addTask()">Tambah Tugas</button>
+    </div>
+
+    <h2>Daftar Tugas</h2>
+    <div id="taskList">Memuat tugas...</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
