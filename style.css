@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+header {
+  background: #159957;
+  color: white;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+header p {
+  margin: 0;
+}
+
+.form {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 10px;
+  background: #159957;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #117a45;
+}
+
+.task {
+  background: white;
+  padding: 18px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
+.task.done {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.task button {
+  width: auto;
+  margin-right: 5px;
+  padding: 8px 12px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
