@@ -1,4 +1,4 @@
-const SUPABASE_URL = "MASUKKAN_API_URL_KAMU_DI_SINI";
+const SUPABASE_URL = "https://cdoymrictszgryhfahin.supabase.co/rest/v1/";
 const SUPABASE_KEY = "sb_publishable_RebghkRTbSEY4gq_xYCNRA_b_vZd6f5";
 
 const { createClient } = supabase;
