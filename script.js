@@ -1,5 +1,5 @@
 const SUPABASE_URL = "MASUKKAN_API_URL_KAMU_DI_SINI";
-const SUPABASE_KEY = "MASUKKAN_PUBLISHABLE_KEY_KAMU_DI_SINI";
+const SUPABASE_KEY = "sb_publishable_RebghkRTbSEY4gq_xYCNRA_b_vZd6f5";
 
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_KEY);
